@@ -6,15 +6,19 @@
    <elementGuidId>6f5ff061-627d-4678-93d5-a2265ba9ebb9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li.sidebar-brand > a</value>
+         <key>BASIC</key>
+         <value>//*[@href = './' and (text() = 'CURA Healthcare' or . = 'CURA Healthcare')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//a[@onclick=&quot;$('#menu-close').click();&quot;]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.sidebar-brand > a</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

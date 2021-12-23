@@ -4,17 +4,22 @@
    <name>button_Book Appointment</name>
    <tag></tag>
    <elementGuidId>dd3e340f-23b5-4013-b8bf-3dbea5e92795</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='btn-book-appointment']</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>#btn-book-appointment</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='btn-book-appointment']</value>
+         <key>IMAGE</key>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

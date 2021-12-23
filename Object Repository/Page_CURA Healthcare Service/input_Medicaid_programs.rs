@@ -6,15 +6,19 @@
    <elementGuidId>49a14de7-f3bb-46a7-a0de-8002d0eefdab</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#radio_program_medicaid</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'radio' and @name = 'programs' and @id = 'radio_program_medicaid']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='radio_program_medicaid']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#radio_program_medicaid</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -4,14 +4,23 @@
    <name>i_CURA Healthcare_fa fa-bars</name>
    <tag></tag>
    <elementGuidId>97f055b6-b7ea-4e78-b053-12df417a3913</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;menu-toggle&quot;)/i[@class=&quot;fa fa-bars&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='menu-toggle']/i</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>i.fa.fa-bars</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='menu-toggle']/i</value>
+         <key>IMAGE</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

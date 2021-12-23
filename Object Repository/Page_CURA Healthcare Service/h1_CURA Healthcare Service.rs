@@ -6,15 +6,19 @@
    <elementGuidId>a31ff947-b5d4-4c89-9f98-8277992c07de</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h1</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'CURA Healthcare Service' or . = 'CURA Healthcare Service')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//header[@id='top']/div/h1</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

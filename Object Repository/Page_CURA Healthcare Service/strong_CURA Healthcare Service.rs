@@ -6,15 +6,19 @@
    <elementGuidId>4afe54a6-c5c2-48ab-9cf2-c4ac7bdf2dba</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>strong</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'CURA Healthcare Service' or . = 'CURA Healthcare Service')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[3]/following::strong[1]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>strong</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
