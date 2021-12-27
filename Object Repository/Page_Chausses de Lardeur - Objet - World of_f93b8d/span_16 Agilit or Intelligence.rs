@@ -6,12 +6,12 @@
    <elementGuidId>52f53e7f-58cd-4873-96a8-01954d506e07</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='tt1934']/table/tbody/tr/td/table/tbody/tr/td/span[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>small_(0.30 au niveau 70)</name>
+   <name>a_Humanode_top-results-result-cover</name>
    <tag></tag>
-   <elementGuidId>3c53a8d3-c736-43d0-a0f4-937af6e173c6</elementGuidId>
+   <elementGuidId>5cbc34ec-fe22-49d5-ab65-161be8ce29d8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//small[@onclick='WH.tooltipLevelPrompt(70, 70);'])[2]</value>
+         <value>//div[@id='main-contents']/div[2]/table/tbody/tr/td/div[2]/table/tr/td[2]/div/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,69 +21,55 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>small</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>rating-percent</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>WH.tooltipLevelPrompt(70, 70);</value>
+      <value>top-results-result-cover</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>href</name>
       <type>Main</type>
-      <value> (0.30% au niveau 70)</value>
+      <value>/npc=46254/lardeur</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-whattach</name>
+      <type>Main</type>
+      <value>true</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tt1934&quot;)/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/span[@class=&quot;q2&quot;]/small[@class=&quot;rating-percent&quot;]</value>
+      <value>id(&quot;main-contents&quot;)/div[@class=&quot;search-results-top-wrapper&quot;]/table[@class=&quot;search-results-top&quot;]/tbody[1]/tr[1]/td[@class=&quot;search-results-top-column&quot;]/div[@class=&quot;search-entities-wrapper withresults&quot;]/table[@class=&quot;top-results-table&quot;]/tr[1]/td[@class=&quot;top-results-cell&quot;]/div[@class=&quot;top-results-result&quot;]/a[@class=&quot;top-results-result-cover&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//small[@onclick='WH.tooltipLevelPrompt(70, 70);'])[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='tt1934']/table/tbody/tr/td/table/tbody/tr/td/span[6]/small</value>
+      <value>//div[@id='main-contents']/div[2]/table/tbody/tr/td/div[2]/table/tr/td[2]/div/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:href</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='(0.60% au niveau 70)'])[1]/following::small[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='(0.30% au niveau 70)']/parent::*</value>
+      <value>(//a[contains(@href, '/npc=46254/lardeur')])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span[6]/small</value>
+      <value>//td[2]/div/a</value>
    </webElementXpaths>
 </WebElementEntity>

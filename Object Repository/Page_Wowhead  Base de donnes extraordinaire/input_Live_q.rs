@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>small_(0.30 au niveau 70)</name>
+   <name>input_Live_q</name>
    <tag></tag>
-   <elementGuidId>3c53a8d3-c736-43d0-a0f4-937af6e173c6</elementGuidId>
+   <elementGuidId>ddd52d00-c80e-4ef5-be28-a59dd31289c2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//small[@onclick='WH.tooltipLevelPrompt(70, 70);'])[2]</value>
+         <value>//input[@name='q']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>input[name=&quot;q&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,69 +21,62 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>small</value>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>q</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Rechercher des guides, des infos, ou dans la base de données…</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>off</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>rating-percent</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>WH.tooltipLevelPrompt(70, 70);</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value> (0.30% au niveau 70)</value>
+      <value>focus-visible</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tt1934&quot;)/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/span[@class=&quot;q2&quot;]/small[@class=&quot;rating-percent&quot;]</value>
+      <value>/html[@class=&quot;js-focus-visible pointer-device&quot;]/body[@class=&quot;standard-layout locale-2 has-ads webp&quot;]/div[@class=&quot;header-wrapper&quot;]/div[@class=&quot;header&quot;]/div[@class=&quot;header-right&quot;]/div[@class=&quot;header-search&quot;]/form[1]/input[@class=&quot;focus-visible&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//small[@onclick='WH.tooltipLevelPrompt(70, 70);'])[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='tt1934']/table/tbody/tr/td/table/tbody/tr/td/span[6]/small</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='(0.60% au niveau 70)'])[1]/following::small[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='(0.30% au niveau 70)']/parent::*</value>
+      <value>//input[@name='q']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span[6]/small</value>
+      <value>//input</value>
    </webElementXpaths>
 </WebElementEntity>

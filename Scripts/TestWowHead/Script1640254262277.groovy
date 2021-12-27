@@ -21,11 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://fr.wowhead.com/')
 
-WebUI.waitForPageLoad(0)
-
 WebUI.click(findTestObject('Object Repository/Page_Wowhead  Votre navigateur ladore/button_Jaccepte'))
 
-WebUI.click(findTestObject('Object Repository/Page_Wowhead  Votre navigateur ladore/button_Refuser'))
+WebUI.click(findTestObject('Page_Wowhead  Votre navigateur ladore/button_Refuser'))
 
 WebUI.waitForPageLoad(0)
 
@@ -38,6 +36,8 @@ WebUI.click(findTestObject('Object Repository/Page_lardeur - Recherche Wowhead/t
 WebUI.click(findTestObject('Object Repository/Page_Lardeur - PNJ - World of Warcraft/a_Chausses de Lardeur'))
 
 WebUI.click(findTestObject('Object Repository/Page_Chausses de Lardeur - Objet - World of_f93b8d/b_Chausses de Lardeur'))
+
+WebUI.verifyElementText(findTestObject('Page_Chausses de Lardeur - Objet - World of_f93b8d/b_Chausses de Lardeur'), '')
 
 WebUI.click(findTestObject('Object Repository/Page_Chausses de Lardeur - Objet - World of_f93b8d/td_Chausses de LardeurNiveau dobjet 57Li qu_e4cee2'))
 
